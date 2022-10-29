@@ -56,6 +56,16 @@ img {
     object-fit: cover;
 }
 
+#logo-txt {
+    letter-spacing: -1.5px;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 
 
 
