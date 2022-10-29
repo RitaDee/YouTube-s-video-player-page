@@ -124,6 +124,14 @@ img {
     justify-content: center;
     background-color: #181818;
 }
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container i {
+    margin-left: 25px;
+}
 
 .profile-box {
     position: relative;
@@ -131,6 +139,14 @@ img {
     width: 30px;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: 25px;
+}
+
+.body-container {
+    display: flex;
+    position: fixed;
+    height: calc(100vh - 60px);
+    top: 60px;
 }
 
 
