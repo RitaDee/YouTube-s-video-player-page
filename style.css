@@ -125,6 +125,14 @@ img {
     background-color: #181818;
 }
 
+.profile-box {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 
 
 
