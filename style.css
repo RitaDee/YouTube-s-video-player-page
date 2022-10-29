@@ -71,6 +71,30 @@ img {
     align-items: center;
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+    flex: 0 1 685px;
+    margin-left: 40px;
+}
+
+.search-container form {
+    position: relative;
+    width: 100%;
+}
+
+.search-container input {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #121212;
+    border: 1px solid rgb(255, 255, 255, .1);
+    padding: 12px;
+    color: #fff;
+    font-size: 1rem;
+}
+
 
 
 
