@@ -33,6 +33,19 @@ hr {
     margin: 12px 0px;
 }
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #202020;
+}
+
+.logo-img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
 
 
 
