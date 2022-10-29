@@ -33,6 +33,29 @@ hr {
     margin: 12px 0px;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background: #717171;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+
+
 .header {
     position: fixed;
     top: 0;
@@ -168,6 +191,14 @@ img {
     padding: 0 24px;
     cursor: pointer;
     height: 40px;
+}
+
+.sidebar-item:hover {
+    background-color: #4c4c4c;
+}
+
+.sidebar-item i {
+    margin-right: 24px;
 }
 
 .sidebar-items {
