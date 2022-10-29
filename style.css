@@ -39,6 +39,11 @@ hr {
     left: 0;
     width: 100%;
     background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+    padding-right: 40px;
 }
 
 .logo-img {
