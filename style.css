@@ -95,6 +95,18 @@ img {
     font-size: 1rem;
 }
 
+.search {
+    min-width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    background-color: #313131;
+    outline: none;
+    border: none;
+}
+
 
 
 
