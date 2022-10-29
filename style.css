@@ -149,6 +149,14 @@ img {
     top: 60px;
 }
 
+.sidebar {
+    background-color: #212121;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
