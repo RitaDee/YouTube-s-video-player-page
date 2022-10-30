@@ -214,6 +214,14 @@ img {
     overflow-x: scroll;
     background-color: #181818;
     display: flex;
+    padding-left: 14px;
+    border-top: 1px solid;
+}
+
+.chips-wrapper ::-webkit-scrollbar {
+    height: 0;
+    border-top:  1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) ;
 }
 
 .chip {
@@ -222,6 +230,14 @@ img {
     padding: 6px 12px;
     border:  1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #fff;
+    transition: .5s;
+}
+
+.chip:hover {
+    background-color: #4d4d4d;
 }
 
 
