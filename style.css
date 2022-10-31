@@ -272,7 +272,7 @@ img {
 
 .channel-logo {
     position: relative;
-    width: 35px;
+    min-width: 35px;
     height: 35px;
     border-radius: 50%;
     overflow: hidden;
@@ -284,6 +284,45 @@ img {
     padding-top: 12px;
 }
 
+.detail {
+    margin-left: 12px;
+}
+
+.title {
+    font-size: .9rem;
+}
+
+.channel-name {
+    font-size: .8rem;
+    margin-top: 10px;
+    color: #aaa;
+}
+
+.views-upload {
+    display: flex;
+    font-size: .8rem;
+    color: #aaa;
+}
+
+.upload {
+    margin-top: 5px;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.btn {
+    padding: 5px 0;
+    color: #aaa;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #373737;
+    text-align: center;
+    margin: 5px 0;
+    font-size: .6rem;
+    cursor: pointer;
+}
 
 
 
