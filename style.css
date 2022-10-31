@@ -305,11 +305,12 @@ img {
 }
 
 .upload {
-    margin-top: 5px;
+    margin-top: auto;
+    margin-left: 5px;
 }
 
 .hidden-content {
-    display: none;
+    display: flex;
 }
 
 .btn {
@@ -322,6 +323,29 @@ img {
     margin: 5px 0;
     font-size: .6rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn i {
+    font-size: .7rem;
+    margin-right: 5px;
+    color: #aaa;
+}
+
+@media (max-width:1200px) {
+    .sidebar {
+        width: 70px;
+        overflow-x: hidden;
+    }
+    .more {
+        display: none;
+    }
+
+    .content {
+        width: calc(100vh - 70px);
+    }
 }
 
 
