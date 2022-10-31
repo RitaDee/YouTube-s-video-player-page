@@ -15,13 +15,13 @@ h1 {
 h4 {
     font-size: .9rem;
     text-transform: uppercase;
-    color: #aaa;
+    color: #181818;
     margin-left: 20px;
 }
 
 i {
     font-size: 1.5rem;
-    color: #fff;
+    color: #121212;
 }
 
 p, a {
@@ -47,11 +47,11 @@ hr {
 }
 
 .sidebar:hover::-webkit-scrollbar-thumb {
-    background: #717171;
+    background: #fff;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #888;
+    background: #fff;
 }
 
 
@@ -61,7 +61,7 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #202020;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,12 +86,15 @@ img {
 
 #logo-txt {
     letter-spacing: -1.5px;
-    color: #fff;
+    color: #181818;
+    font-size: 20px;
+    margin-left: 5px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .logo-container {
@@ -116,10 +119,10 @@ img {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #121212;
-    border: 1px solid rgb(255, 255, 255, .1);
+    background-color: #fff;
+    border: 1px solid black;
     padding: 12px;
-    color: #fff;
+    color: #181818;
     font-size: 1rem;
 }
 
@@ -130,9 +133,9 @@ img {
     align-items: center;
     justify-content: center;
     z-index: 20;
-    background-color: #313131;
-    outline: none;
-    border: none;
+    background-color: #fff;
+    outline: black;
+    border: 1px solid black;
 }
 
 .mic {
@@ -145,7 +148,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #181818;
+    background-color: #fff;
 }
 .profile-container {
     display: flex;
@@ -173,16 +176,16 @@ img {
 }
 
 .sidebar {
-    background-color: #212121;
+    background-color: #fff;
     padding-top: 10px;
     width: 240px;
     overflow-y: scroll;
-    color: #fff;
+    color: #181818;
 }
 
 .sidebar a {
     text-decoration: none;
-    color: #fff;
+    color: #121212;
 }
 
 .sidebar-item {
@@ -212,7 +215,7 @@ img {
 
 .chips-wrapper {
     overflow-x: scroll;
-    background-color: #181818;
+    background-color: #fff;
     display: flex;
     padding-left: 14px;
     border-top: 1px solid;
@@ -220,24 +223,24 @@ img {
 
 .chips-wrapper ::-webkit-scrollbar {
     height: 0;
-    border-top:  1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) ;
+    border-top:  1px solid whitesmoke;
+    border-bottom: 1px solid wheat ;
 }
 
 .chip {
     margin: 12px 6px;
-    background-color: #373737;
+    background-color: whitesmoke;
     padding: 6px 12px;
     border:  1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     white-space: nowrap;
     cursor: pointer;
-    color: #fff;
+    color: #181818;
     transition: .5s;
 }
 
 .chip:hover {
-    background-color: #4d4d4d;
+    background-color: brown;
 }
 
 .video-container {
@@ -245,7 +248,7 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 18px;
     padding: 20px 25px;
-    background-color: #181818;
+    background-color: #fff;
     overflow-y: scroll;
     height: calc(100vh - 116px);
 }
@@ -280,7 +283,7 @@ img {
 
 .video-details {
     display: flex;
-    color: #fff;
+    color: #4d4d4d;
     padding-top: 12px;
 }
 
@@ -295,13 +298,13 @@ img {
 .channel-name {
     font-size: .8rem;
     margin-top: 10px;
-    color: #aaa;
+    color: #121212;
 }
 
 .views-upload {
     display: flex;
     font-size: .8rem;
-    color: #aaa;
+    color: #4d4d4d;
 }
 
 .upload {
@@ -315,10 +318,10 @@ img {
 
 .btn {
     padding: 5px 0;
-    color: #aaa;
+    color: #181818;
     text-transform: uppercase;
     width: 100%;
-    background-color: #373737;
+    background-color: whitesmoke;
     text-align: center;
     margin: 5px 0;
     font-size: .6rem;
@@ -331,7 +334,7 @@ img {
 .btn i {
     font-size: .7rem;
     margin-right: 5px;
-    color: #aaa;
+    color: #121212;
 }
 
 @media (max-width:1200px) {
@@ -346,6 +349,13 @@ img {
     .content {
         width: calc(100vh - 70px);
     }
+}
+
+@media (max-width:1050px) {
+    .video-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 
